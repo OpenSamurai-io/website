@@ -3,14 +3,13 @@ export const defaultBags = [
   {
     id: 1,
     attributes: [
-      "Hard Leather Armor",
-      '"Death Root" Ornate Greaves of Skill',
-      "Studded Leather Gloves",
-      "Divine Hood",
-      "Necklace of Enlightenment",
-      "Gold Ring",
-      "Hard Leather Belt",
-      '"Grim Shout" Grave Wand of Skill +1',
+      "Bohiya",
+      '"Okegawa Dou (dō) guskou',
+      "Hoshi-bachi kabuto",
+      "Hakama of Kiyohara clan",
+      "Shino Odatsugi of Rokkaku clan",
+      '"Water Sand" Sashimono of Kikkawa clan +1',
+      "Bronze Ring",
     ],
   },
   {
