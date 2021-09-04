@@ -10,10 +10,10 @@ export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/lootproject" },
-    { name: "Discord", url: "https://discord.gg/NXEntTSHgy" },
+    { name: "Discord", url: "https://discord.gg/vsbuvsK6wN" },
     {
       name: "Twitter",
-      url: "https://twitter.com/lootproject",
+      url: "https://twitter.com/opensamurai",
     },
     {
       name: "Contract",
@@ -35,7 +35,7 @@ export default function Home(): ReactElement {
       <div>
         <div className={styles.home__cta}>
           {/* CTA title */}
-          <h1>Loot</h1>
+          <h1>Open Samurai</h1>
 
           {/* Quicklinks */}
           <ul>
@@ -52,16 +52,16 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
           <p>
-            Loot is randomized adventurer gear generated and stored on chain.
+            Open Samurai is randomized samurai gear generated and stored on chain.
             <br /> Stats, images, and other functionality are intentionally
-            omitted for others to interpret. <br /> Feel free to use Loot in any
-            way you want.
+            omitted for others to interpret. <br /> Feel free to use Open Samurai in any
+            way you want. This is a fork of the Loot Project.
           </p>
         </div>
 
         {/* Rendering sample loot bags */}
         <div className={styles.home__feature}>
-          <span>Example Bags:</span>
+          <span>Example Kaban :</span>
           {getRandomThreeBags().map(({ id, attributes }, i) => (
             // For each loot bag, render item and link to OpenSea
             <a

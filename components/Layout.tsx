@@ -36,31 +36,31 @@ function Head(): ReactElement {
     <HTMLHead>
       {/* Primary Meta Tags */}
       <title>Loot</title>
-      <meta name="title" content="Loot" />
+      <meta name="title" content="Open Samurai" />
       <meta
         name="description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Open Samurai is randomized samurai gear generated and stored on chain."
       />
 
       {/* OG + Faceook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.lootproject.com/" />
-      <meta property="og:title" content="Loot" />
+      <meta property="og:url" content="https://www.opensamurai.io/" />
+      <meta property="og:title" content="Open Samurai" />
       <meta
         property="og:description"
         content="Loot is randomized adventurer gear generated and stored on chain."
       />
-      <meta property="og:image" content="https://lootproject.com/meta.png" />
+      <meta property="og:image" content="https://opensamurai.io/meta.png" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.lootproject.com/" />
+      <meta property="twitter:url" content="https://www.opensamurai.io/" />
       <meta property="twitter:title" content="Loot" />
       <meta
         property="twitter:description"
         content="Loot is randomized adventurer gear generated and stored on chain."
       />
-      <meta property="twitter:image" content="https://lootproject.com/meta.png" />
+      <meta property="twitter:image" content="https://opensamurai.io/meta.png" />
 
       {/* Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -96,7 +96,7 @@ function Header() {
       {/* Main logo */}
       <div className={styles.header__logo}>
         <Link href="/">
-          <a>Loot</a>
+          <a>Open Samurai</a>
         </Link>
       </div>
 
