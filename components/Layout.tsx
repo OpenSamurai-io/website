@@ -35,7 +35,7 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>Loot</title>
+      <title>Open Samurai</title>
       <meta name="title" content="Open Samurai" />
       <meta
         name="description"
