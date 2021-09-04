@@ -48,17 +48,17 @@ function Head(): ReactElement {
       <meta property="og:title" content="Open Samurai" />
       <meta
         property="og:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Open Samurai is randomized samurai gear generated and stored on chain."
       />
       <meta property="og:image" content="https://opensamurai.io/meta.png" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://www.opensamurai.io/" />
-      <meta property="twitter:title" content="Loot" />
+      <meta property="twitter:title" content="Open Samurai" />
       <meta
         property="twitter:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Open Samurai is randomized samurai gear generated and stored on chain."
       />
       <meta property="twitter:image" content="https://opensamurai.io/meta.png" />
 
@@ -88,7 +88,7 @@ function Header() {
   // All links
   const links = [
     { name: "FAQ", path: "/faq" },
-    { name: "Resources", path: "/resources" },
+    { name: "Resources", path: "/" },
   ];
 
   return (
